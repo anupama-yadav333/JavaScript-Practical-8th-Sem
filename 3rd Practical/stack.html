@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stack Operations(PUSH and POP)</title>
+	<style>
+		.bodyText{
+			text-align: center;
+			font-weight: bold;
+			font-size: 40px;
+			text-decoration: underline;
+		}
+		#stackDisplay{
+			background-color: #e9e9e9;
+			margin-top: 20px;
+		}
+		#pushButton{
+			font-weight: bold;
+			color: #4CAF50;
+		}
+		#popButton{
+			font-weight: bold;
+			color: #ff0000;
+		}
+		#displayElements{
+			font-weight: bold;
+			color: #0000ff;
+		}
+	</style>
+</head>
+<body>
+	<div class="bodyText">
+		Stack PUSH() and POP() Operation<br>
+	</div>
+	
+	<div id="stackOperations">
+		<input type="text" id="element" name="pushElement" placeholder="Enter Element">
+		<input type="button" id="pushButton" name="push_button" value="PUSH Element"><br>
+		<br><input type="button" id="popButton" name="pop_button" value="POP Element"><br>
+		<br><input type="button" id="displayElements" name="display_elements" value="Display Stack Elements"><br>
+	</div>
+	<div id="stackDisplay"></div>
+
+	<script src="js/stack.js"></script>
+</body>
+</html>
